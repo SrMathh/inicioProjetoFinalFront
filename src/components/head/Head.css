@@ -1,0 +1,17 @@
+.Head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    border: groove;
+    margin: 20px;
+    margin-top: -65px;
+    margin-right: 14px;
+}
+.Logo{
+    display: flex;
+    border: double;
+    margin: 5px;
+}

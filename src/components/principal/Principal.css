@@ -1,0 +1,14 @@
+.Principal{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.img{
+    display: flex;
+    border: groove;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
