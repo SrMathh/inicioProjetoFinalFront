@@ -23,7 +23,7 @@ root.render(
         <Route path='/'element = {<PageHome/>}/>
         <Route path='/users'element = {<CadastroUsuarios/>}/>
         <Route path='/sales'element = {<CadastroVendas/>}/>
-        <Route path='/products'element = {<CadastroProduto/>}/>
+        <Route path='/products'element = {<CadastroProduto/>}/>    
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
