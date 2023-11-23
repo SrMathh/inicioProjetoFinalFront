@@ -8,19 +8,37 @@ import {Link} from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
+      <div className="Head">
+        <div className="Logo">
+        <img src={logo} alt="" />
+        </div>
+    </div>
       <div className="Itens">
-        <Link to="/" target="blank" rel="nooper noreferrer">
+        <div className="links">
+        <Link to="/"  rel="nooper noreferrer">
           Home
         </Link>
-        <Link to= "/users" target="blank" rel="nooper noreferrer">
+        </div>
+        <div className="links">
+        <Link to= "/users"  rel="nooper noreferrer">
           Cadastro Usuarios
         </Link>
-        <Link to="/sales" target="blank" rel="nooper noreferrer">
+        </div>
+        <div className="links">
+        <Link to="/sales"  rel="nooper noreferrer">
           Vendas
         </Link>
-        <Link to="/products" target="blank" rel="nooper noreferrer">
+        </div>
+        <div className="links">
+        <Link to="/products"  rel="nooper noreferrer">
           Cadastro Produtos
         </Link>
+        </div>
+        <div className="button">
+        <Link to= "/users" rel="nooper noreferrer" >
+            <input type="button" value="Log In!" />
+        </Link>
+        </div>
       </div>
     </div>
   );

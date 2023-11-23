@@ -2,7 +2,34 @@
     display: flex;
     justify-content: space-evenly;
     border: solid;
+    background-color: black;
 }
 .Itens{
-    display: contents;
+    display: flex;
+    align-items: center;
+    font-family: ui-monospace;
+    margin: auto;
+    
+}
+.Head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    border: groove;
+    margin-top: -90px;
+    margin-right: -5px;
+}
+.Logo{
+    display: flex;
+    border: double;
+    margin: 5px;
+}
+.links{
+    display: flex;
+    border: double;
+    margin-left: 80px;
+    margin-right: 80px;
 }

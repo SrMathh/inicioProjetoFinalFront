@@ -2,6 +2,7 @@
   "name": "nome-do-seu-projeto",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http://localhost:8080/projeto",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

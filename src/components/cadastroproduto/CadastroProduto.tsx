@@ -1,4 +1,4 @@
-import "./CadastroProduto.css";
+ import "./CadastroProduto.css";
 import Head from "../head/Head";
 import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";

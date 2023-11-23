@@ -6,7 +6,7 @@ import Footer from "../footer/Footer";
 function CadastroUsuarios(){
     return(
     <div>
-        <Head />
+        
         <NavBar />
         <div className="janelaUsuario">
             <div className="nome">

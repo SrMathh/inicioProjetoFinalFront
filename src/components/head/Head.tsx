@@ -10,7 +10,7 @@ function Head(){
         <img src={logo} alt="" />
         </div>
         <div className="button">
-        <Link to= "/users" target='_blank' rel="nooper noreferrer" >
+        <Link to= "/users" rel="nooper noreferrer" >
             <input type="button" value="Log In!" />
         </Link>
         </div>
