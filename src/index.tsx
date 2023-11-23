@@ -25,7 +25,7 @@ root.render(
         <Route path='/sales'element = {<CadastroVendas/>}/>
         <Route path='/products'element = {<CadastroProduto/>}/>    
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>  
   </React.StrictMode>
 );
 
