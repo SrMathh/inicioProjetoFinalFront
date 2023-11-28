@@ -1,5 +1,5 @@
 import axios from "axios";
-import logo from "../../img/logo.png";
+// import logo from "../../img/logo.png";
 import "./NavBar.css"
 import CadastroProduto from "../cadastroproduto/CadastroProduto"
 import React, { useEffect, useRef } from "react";
@@ -10,7 +10,7 @@ function NavBar() {
     <div className="NavBar">
       <div className="Head">
         <div className="Logo">
-        <img src={logo} alt="" />
+        {/* <img src={logo} alt="" /> */}
         </div>
     </div>
       <div className="Itens">
@@ -35,9 +35,6 @@ function NavBar() {
         </Link>
         </div>
         <div className="button">
-        <Link to= "/users" rel="nooper noreferrer" >
-            <input type="button" value="Log In!" />
-        </Link>
         </div>
       </div>
     </div>

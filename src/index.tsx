@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Head from './components/head/Head';
-import NavBar from './components/navbar/NavBar';
-import Principal from './components/principal/Principal';
-import Produtos from './components/produtos/Produtos';
+// import Head from './components/head/Head';
+// import NavBar from './components/navbar/NavBar';
+// import Principal from './components/principal/Principal';
+// import Produtos from './components/produtos/Produtos';
 import CadastroProduto from './components/cadastroproduto/CadastroProduto';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CadastroUsuarios from './components/cadastrousuarios/CadastroUsuarios';
 import CadastroVendas from './components/cadastrovenda/CadastroVendas';
-import PageHome from './components/pagehome/PageHome';
+import PageHome from './components/pagehome/PageLogin';
+import PageCardapio from './components/pageCardapio/pageCardapio';
 
 
 const root = ReactDOM.createRoot(
@@ -24,6 +25,7 @@ root.render(
         <Route path='/users'element = {<CadastroUsuarios/>}/>
         <Route path='/sales'element = {<CadastroVendas/>}/>
         <Route path='/products'element = {<CadastroProduto/>}/>
+        <Route path='/pageCardapio'element = {<PageCardapio/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

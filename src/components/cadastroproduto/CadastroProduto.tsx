@@ -1,13 +1,13 @@
  import "./CadastroProduto.css";
-import Head from "../head/Head";
-import NavBar from "../navbar/NavBar";
+// import Head from "../head/Head";
+// import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 
 function CadastroProduto() {
   return (
     <div>
-      <Head />
-      <NavBar />
+      {/* <Head /> */}
+      {/* <NavBar /> */}
       <div className="janelaproduto">
         <div className="nome">
           Nome do Produto <br />

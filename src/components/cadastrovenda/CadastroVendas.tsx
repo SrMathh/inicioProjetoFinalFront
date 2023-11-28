@@ -1,13 +1,13 @@
 import "./CadastroVendas.css";
-import Head from "../head/Head";
-import NavBar from "../navbar/NavBar";
+// import Head from "../head/Head";
+// import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 
 function CadastroVendas(){
     return(
         <div>
-            <Head />
-            <NavBar />
+            {/* <Head />
+            <NavBar /> */}
             <div className="janelavendas">
                 <div>
                     Nome do Pedido <br />   <input type="text" id="nome" />
