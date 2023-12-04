@@ -14,7 +14,6 @@ function PageLogin() {
 
   function pageCadastro(e:any) {
     setIsUser(true)
-    {/* <Link to="/pageCardapio" rel="nooper noreferrer" />; */}
   }
 
   return (
@@ -67,7 +66,7 @@ function PageLogin() {
               Acessar
             </button>
           </div>
-          </form>
+          </form> 
         </div>
       </div>
     </>

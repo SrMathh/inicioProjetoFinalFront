@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'primeicons/primeicons.css';
 import reportWebVitals from './reportWebVitals';
 // import Head from './components/head/Head';
 // import NavBar from './components/navbar/NavBar';
@@ -12,6 +13,7 @@ import CadastroUsuarios from './components/cadastrousuarios/CadastroUsuarios';
 import CadastroVendas from './components/cadastrovenda/CadastroVendas';
 import PageHome from './components/pagehome/PageLogin';
 import PageCardapio from './components/pageCardapio/pageCardapio';
+import PageLogin from './components/pagehome/PageLogin';
 
 
 const root = ReactDOM.createRoot(
@@ -26,6 +28,7 @@ root.render(
         <Route path='/sales'element = {<CadastroVendas/>}/>
         <Route path='/products'element = {<CadastroProduto/>}/>
         <Route path='/pageCardapio'element = {<PageCardapio/>}/>
+        <Route path='/pageLogin'element = {<PageLogin/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

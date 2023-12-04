@@ -20,7 +20,7 @@
     background-color: var(--color-primary);
     color: var(--color-white);
     padding: 10px;
-    height: 4rem;
+    height: 6rem;
 }
 
 .center-section {
@@ -29,14 +29,14 @@
 }
 
 .imgLogo1 {
-    height: 7.5rem;
+    height: 5.5rem;
 }
 
 .card-cardapio {
     padding: 20px;
     border-radius: 17px;
     width: 100%; 
-    max-width: 30rem;
+    max-width: 40rem;
     height: auto; 
     text-align: center; 
     box-shadow: 0px 5px 5px var(--color-text-out);
@@ -54,24 +54,49 @@
   }
   
   .card-img {
-    float: left;
-    width: 50%; /* Alteração aqui para ocupar metade da largura */
+    width: 50%; 
   }
   
   .form-cardapio {
-    float: right;
-    width: 50%; /* Alteração aqui para ocupar metade da largura */
+    width: 100%; 
   }
-  
+
   .input-cardapio {
+    border-radius: 5px;
+    border: 1px solid var(--color-separate);
+    padding: 8px;
+    /* &:focus,
+    &:focus-visible {
+        border-color: var(--color-primary) !important;
+        outline: none;
+    } */
+}
+
+.button-btn-save{
+  padding-right: 15px;
+}
+
+.btn-save {
+  border: 0;
+  color: var(--color-white);
+  background: var(--color-green);
+  border-radius: 5px;
+}
+
+.input-cardapio:focus-visible{
+  border-color: var(--color-primary) !important;
+  outline: none;
+}
+  
+/*   .input-cardapio {
     margin: 0px;
-    width: 100%; /* Alteração aqui para ocupar toda a largura disponível */
+    width: 100%;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     height: 1rem;
     padding: 0.7rem;
-  }
+  } */
   
   .label-cardapio {
     display: flex;
@@ -79,6 +104,29 @@
     color: var(--color-black-heavy);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .avatar {
+    background-color: var(--color-text-out);
+    color: var(--color-white);
+  }
+
+  .right-section {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .button-sair {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    width: 50%;
+    color: var(--color-white);
+  }
+
+  .button-sair:hover{
+    color: var(--color-black-heavy);
   }
   
   /* Adicionando uma media query para ajustar para telas menores */
