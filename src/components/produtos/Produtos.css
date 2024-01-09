@@ -1,0 +1,18 @@
+.Produtos{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.img{
+    display: flex;
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+.contender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

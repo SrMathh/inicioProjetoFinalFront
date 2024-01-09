@@ -1,0 +1,7 @@
+.janelaUsuario{
+    display: flex;
+    background-color: black;
+    color: orange;
+    flex-flow: column;
+    border: orange;
+}

@@ -1,0 +1,162 @@
+:root {
+    --color-background: #202022;
+    --color-black: #212121;
+    --color-black-heavy: #000;
+    --color-text: #4f4f4f;
+    --color-text-out: #90908e;
+    --color-primary: #f28705;
+    --color-secondary: #ffa726;
+    --color-yellow: #fabb0d;
+    --color-white: #ffffff;
+    --color-red: #e74c3c;
+    --color-green: #2ecc71;
+    --color-separate: #cccccc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 10px;
+    height: 6rem;
+}
+
+.center-section {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.imgLogo1 {
+    height: 5.5rem;
+}
+
+.card-cardapio {
+    padding: 20px;
+    border-radius: 17px;
+    width: 100%; 
+    max-width: 40rem;
+    height: auto; 
+    text-align: center; 
+    box-shadow: 0px 5px 5px var(--color-text-out);
+    margin-bottom: 3rem;
+    background-color: var(--color-white);
+    margin-top: 2rem;
+    display: flex;
+    margin: 4rem;
+  }
+  
+  .card-img img {
+    margin-top: 2rem;
+    height: 11rem;
+    border-radius: 3rem;
+  }
+  
+  .card-img {
+    width: 50%; 
+  }
+  
+  .form-cardapio {
+    width: 100%; 
+  }
+
+  .input-cardapio {
+    border-radius: 5px;
+    border: 1px solid var(--color-separate);
+    padding: 8px;
+    /* &:focus,
+    &:focus-visible {
+        border-color: var(--color-primary) !important;
+        outline: none;
+    } */
+}
+
+.button-btn-save{
+  padding-right: 15px;
+}
+
+.btn-save {
+  border: 0;
+  color: var(--color-white);
+  background: var(--color-green);
+  border-radius: 5px;
+}
+
+.input-cardapio:focus-visible{
+  border-color: var(--color-primary) !important;
+  outline: none;
+}
+  
+/*   .input-cardapio {
+    margin: 0px;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    height: 1rem;
+    padding: 0.7rem;
+  } */
+  
+  .label-cardapio {
+    display: flex;
+    margin-left: 1rem;
+    color: var(--color-black-heavy);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .avatar {
+    background-color: var(--color-text-out);
+    color: var(--color-white);
+  }
+
+  .right-section {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .button-sair {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    width: 50%;
+    color: var(--color-white);
+  }
+
+  .button-sair:hover{
+    color: var(--color-black-heavy);
+  }
+  
+  /* ... (seu código existente) */
+
+/* Adicionando uma media query para ajustar para telas menores */
+@media (max-width: 769px) {
+  .card-cardapio {
+    width: 100%;
+    margin: 4rem auto 3rem auto; /* Adicionando 'auto' nas margens para centralizar */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .card-img,
+  .form-cardapio {
+    width: 100%; /* Ocupar toda a largura disponível */
+  }
+
+  .form-cardapio {
+    margin-top: 1rem; /* Adicionando margem superior para separar dos elementos acima */
+  }
+  .button-btn-save {
+    width: 17rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+}
+
+  
